@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.password">root</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/ptutors_db</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
+        <property name="hibernate.search.autoregister_listeners">false</property>
+        <property name="hibernate.validator.apply_to_ddl">false</property>
+        <property name="hibernate.hbm2ddl.auto">create</property>
+        <property name="hibernate.show_sql">true</property>
+        <mapping class="com.pcs.pojo.CompanyType" />
+        <mapping class="com.pcs.pojo.CourseQuery" />
+        <mapping class="com.pcs.pojo.UniversityInstitute" />
+        <mapping class="com.pcs.pojo.CcaStudentLanguage" />
+        <mapping class="com.pcs.pojo.JobseekersDetails" />
+        <mapping class="com.pcs.pojo.ContactUs" />
+        <mapping class="com.pcs.pojo.Teaser" />
+        <mapping class="com.pcs.pojo.TutorUgEducation" />
+        <mapping class="com.pcs.pojo.CareerQuestionAnswers" />
+        <mapping class="com.pcs.pojo.CourseCandidateDetails" />
+        <mapping class="com.pcs.pojo.TeachingPatteren" />
+        <mapping class="com.pcs.pojo.CandidateCoursePayment" />
+        <mapping class="com.pcs.pojo.Assistance" />
+        <mapping class="com.pcs.pojo.HomeWorkHelp" />
+        <mapping class="com.pcs.pojo.CourseName" />
+        <mapping class="com.pcs.pojo.TutorialCenter" />
+        <mapping class="com.pcs.pojo.EducationCategories" />
+        <mapping class="com.pcs.pojo.TutorTeachingOption" />
+        <mapping class="com.pcs.pojo.Aaa" />
+        <mapping class="com.pcs.pojo.TutorTeachingPatteren" />
+        <mapping class="com.pcs.pojo.PostAdvertisement" />
+        <mapping class="com.pcs.pojo.TutorDetails" />
+        <mapping class="com.pcs.pojo.StudentSubject" />
+        <mapping class="com.pcs.pojo.Feedback" />
+        <mapping class="com.pcs.pojo.UserProfiles" />
+        <mapping class="com.pcs.pojo.CcaTutorLanguage" />
+        <mapping class="com.pcs.pojo.CcaStudent" />
+        <mapping class="com.pcs.pojo.TeachingOption" />
+        <mapping class="com.pcs.pojo.TutorPgEducation" />
+        <mapping class="com.pcs.pojo.ViewCount" />
+        <mapping class="com.pcs.pojo.InstituteCategory" />
+        <mapping class="com.pcs.pojo.InstituteSubCategory" />
+        <mapping class="com.pcs.pojo.InstantPostTutorRequirement" />
+        <mapping class="com.pcs.pojo.SchoolBoard" />
+        <mapping class="com.pcs.pojo.IndustryType" />
+        <mapping class="com.pcs.pojo.LocationName" />
+        <mapping class="com.pcs.pojo.TutorMembershipSubscription" />
+        <mapping class="com.pcs.pojo.CareerCafeQuestion" />
+        <mapping class="com.pcs.pojo.CountryName" />
+        <mapping class="com.pcs.pojo.TutorTeachingSegment" />
+        <mapping class="com.pcs.pojo.TeachingMedium" />
+        <mapping class="com.pcs.pojo.EducationalResources" />
+        <mapping class="com.pcs.pojo.SecretQuestion" />
+        <mapping class="com.pcs.pojo.CareerCafe" />
+        <mapping class="com.pcs.pojo.TutorMedium" />
+        <mapping class="com.pcs.pojo.TutorSubject" />
+        <mapping class="com.pcs.pojo.StudentDetails" />
+        <mapping class="com.pcs.pojo.TutorTeachingArena" />
+        <mapping class="com.pcs.pojo.AcademicNewsletter" />
+        <mapping class="com.pcs.pojo.WeeklyMessage" />
+        <mapping class="com.pcs.pojo.CcaTutor" />
+        <mapping class="com.pcs.pojo.EmployersDetails" />
+        <mapping class="com.pcs.pojo.Subject" />
+        <mapping class="com.pcs.pojo.JobseekerFunctionalArea" />
+    </session-factory>
+</hibernate-configuration>
